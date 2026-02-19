@@ -1,6 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #d5e1ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.card h1 {
+    font-size: 22px;
+    color: #1f314f;
+    text-align: center;
+    padding-top: 0%;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 15px;
+    color: #68778d;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.qr-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.qr-box img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    width: 320px;
+}
+
+.text-box {
+    margin: 16px;
+    width: 288px;
+    margin-bottom: 40px;
+    padding: 0 8px;
+}
+
 .attribution { 
+    position: absolute; /* Lo libera del flujo flexible */
+    bottom: 15px;       /* Lo pega 15px desde abajo */
+    width: 100%;        /* Asegura que ocupe todo el ancho para centrar el texto */
+    
+    /* Mantén tus otros estilos */
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
 }
 
 .attribution a { 
